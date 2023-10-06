@@ -1,3 +1,17 @@
+@charset "UTF-8";
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  /* Fondo blanco inicial */
+  transition: background-color 0.5s;
+  /* Transición de color de fondo durante 0.5 segundos */
+}
+
+/* Establece el color de fondo rojo al hacer scroll */
+body.scroll-background {
+  background-color: #ff0000;
+}
+
 /* Header*/
 .navbar {
   background-color: #3498db;
