@@ -46,6 +46,37 @@
         </nav>
     </header>
 
+<!-- Contenido principal de la página -->
+<div class="container mt-4">
+    <h1 class="text-center">Destinos en Chile</h1>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Destino</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Santiago</td>
+                <td>$15.000</td>
+            </tr>
+            <tr>
+                <td>Valdivia</td>
+                <td>$20.000</td>
+            </tr>
+            <tr>
+                <td>Villarica</td>
+                <td>$15.000</td>
+            </tr>
+            <tr>
+                <td>Viña del mar</td>
+                <td>$9.000'</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
     <!-- Pie de página -->
     <footer class="bg-light text-center py-3">
         Derechos de autor &copy; 2023 Chile Tours
@@ -53,6 +84,17 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Animación de cambio de color de fondo -->
+    <script>
+        // verificacion de scroll
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 25) {
+                document.body.classList.add('scroll-background');
+            } else {
+                document.body.classList.remove('scroll-background');
+            }
+        });
+    </script>
 </body>
 
 </html>
