@@ -1,21 +1,21 @@
 /* Header*/
 .navbar {
-    background-color: #3498db;
-    /* Color de fondo azul */
+  background-color: #3498db;
+  /* Color de fondo azul */
 }
 
 nav a {
-    color: #fff;
-    /* Letras blancas */
+  color: #fff;
+  /* Letras blancas */
 }
 
 /* Cajas de destinos */
 .destino {
-    background-color: #fff;
-    /* Color de fondo del cuadro */
-    border: 1px solid #ddd;
-    /* Borde del cuadro */
-    padding: 20px;
-    text-align: center;
-    margin: 10px;
+  background-color: #fff;
+  /* Color de fondo del cuadro */
+  border: 1px solid #ddd;
+  /* Borde del cuadro */
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
 }
