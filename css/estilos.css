@@ -128,4 +128,28 @@ h1:hover {
   /* Cambia el tamaño de la imagen al pasar el mouse */
 }
 
+/* Estilos para  contacto */
+/* line 115, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.contact-info {
+  text-align: center;
+  opacity: 0;
+  /* Inicialmente, la información estará oculta */
+  transition: opacity 0.5s ease;
+  /* Transición de opacidad durante 0.5 segundos */
+  margin-top: 20px;
+}
+
+/* Estilo para el botón que mostrará la información */
+/* line 125, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.show-info-button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Estilo para el botón al hacer hover */
+/* line 131, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.show-info-button:hover + .contact-info {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=estilos.css.map */
