@@ -1,30 +1,134 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* Fondo blanco inicial */
-    transition: background-color 0.5s; /* Transición de color de fondo durante 0.5 segundos */
-  }
-  
-  /* Establece el color de fondo rojo al hacer scroll */
-  body.scroll-background {
-    background-color: #ff0000; 
-  }
-  
-  /* Header*/
+/* Variables */
+$color-primary: #007bff;
+$color-secondary: hsl(0, 75%, 49%);
+
+/* Estilos encabezado */
+header {
   .navbar {
-    background-color: #3498db; /* Color de fondo azul */
+    background-color: $color-primary;
+    .navbar-brand {
+      color: white;
+      &:hover {
+        background-color: #fc0909;
+        padding: 20px;
+        border: 5px solid hwb(235 16% 0%);
+        margin: 10px;
+        transition: background-color 2s;
+      }
+    }
+    .navbar-toggler-icon {
+      color: white;
+    }
+    .nav-item {
+      .nav-link {
+        color: white;
+        &:hover {
+          background-color: $color-secondary;
+          color: white;
+        }
+      }
+    }
   }
-  
-  nav a {
-    color: #fff; /* Letras blancas */
+}
+
+/* Estilos cuadros de texto */
+.custom-box {
+  background-color: #FF5733;
+  color: white;
+}
+
+.custom-box-2 {
+  background-color: #3498db;
+  color: white;
+}
+
+.custom-box-3 {
+  background-color: #FF5733;
+  color: white;
+}
+
+h1 {
+  transition: all 1s;
+
+}
+
+/* Transicion de h1 y cambio de color */
+h1:hover {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  background-color: #fc0909;
+  padding: 20px;
+  border: solid 5px hwb(235 16% 0%);
+  margin: 10px;
+}
+
+/*Cambio de color al hacer scroll */
+.scroll-background {
+  background-color: red; /* Color de fondo rojo */
+  transition: background-color 0.5s; /*Transición suave */
+}
+
+/*Estilo para cuadro de texto de destinos.html */ 
+
+.destino-description {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+  p {
+    font-size: 20px;
   }
-  
-  /* Cajas de destinos */
-  .destino {
-    background-color: #fff; /* Color de fondo del cuadro */
-    border: 1px solid #ddd; /* Borde del cuadro */
-    padding: 20px;
-    text-align: center;
-    margin: 10px;
+}
+
+/*Estilo para cuadro de texto de tours.html */ 
+.tour-description {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+
+  p {
+    font-size: 20px;
   }
+}
+
+/* Estilo para las imágenes */
+.gallery-img {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Estilo para la animación de las imágenes al pasar el mouse */
+.gallery-img:hover {
+  transform: scale(1.1);
+  /* Cambia el tamaño de la imagen al pasar el mouse */
+}
+
+ /* Estilos para  contacto */
+ .contact-info {
+  text-align: center;
+  opacity: 0;
+  /* Inicialmente, la información estará oculta */
+  transition: opacity 0.5s ease;
+  /* Transición de opacidad durante 0.5 segundos */
+  margin-top: 20px;
+}
+
+/* Estilo para el botón que mostrará la información */
+.show-info-button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Estilo para el botón al hacer hover */
+.show-info-button:hover+.contact-info {
+  opacity: 1;
   
-  
+}

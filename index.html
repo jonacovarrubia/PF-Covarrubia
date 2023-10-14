@@ -4,81 +4,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/imagenes/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/imagenes/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/imagenes/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/imagenes/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagenes/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imagenes/favicon/site.webmanifest">
     <meta name="description" content="Los mejores destinos que viisitar en Chile">
     <meta name="keywords" content="viajes, chile, destinos">
     <title>Chile Tours</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
-    
-    <style>
-        /*  transicion en h1 de color original */
-        h1 {
-            transition: all 1s;
 
-        }
-
-        /* a efecto y cambio de color */
-        h1:hover {
-            color: rgb(255, 255, 255);
-            font-size: 50px;
-            background-color: #fc0909;
-            padding: 20px;
-            border: solid 5px hwb(235 16% 0%);
-            margin: 10px;
-        }
-
-    </style>
+   
 
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">Chile Tours</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="destinos.html">Destinos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="fotos.html">Fotos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tours.html">Tours</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+     <!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Chile Tours</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/destinos.html">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/fotos.html">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="paginas/tours.html">Tours</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    <!-- Cajas de destinos -->
+    </header>
     <div class="container mt-4">
         <h1 class="text-center">Destinos en Chile</h1>
         <div class="row">
-            <!-- Caja de destino 1 -->
+
+    <!-- cuadros de texto -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Cuadro 1 -->
+            <div class="col-md-4">
+                <div class="card custom-box">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Descubre Chile</h5>
+                        <p class="card-text">Explora la belleza de Chile con nuestros emocionantes tours.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuadro 2 -->
+            <div class="col-md-4">
+                <div class="card custom-box-2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Variedad de Destinos</h5>
+                        <p class="card-text">Nuestros tours te llevan a través de majestuosas montañas, playas y mucho más. </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuadro 3 -->
+            <div class="col-md-4">
+                <div class="card custom-box-3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Planifica tu Viaje</h5>
+                        <p class="card-text">Ponte en
+                            contacto para organizar tu próximo viaje emocionante.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- Cajas de destino: destino 1 -->
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card">
-                    <img src="imagenes/Santiago.jpg" class="card-img-top" alt="Destino 1">
+                    <img src="imagenes/Santiago.jpg" class="card-img-top" alt="Foto de Santiago">
                     <div class="card-body">
                         <h5 class="card-title">Santiago</h5>
                         <p class="card-text">Disfruta la capital de Chile.</p>
-                        <a href="fotos.html" class="btn btn-primary">Ver más</a>
+                        <a href="paginas/fotos.html" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
             </div>
@@ -86,11 +105,11 @@
             <!-- Cuadro de destino 2 -->
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card">
-                    <img src="imagenes/valdivia.jpg" class="card-img-top" alt="Destino 2">
+                    <img src="imagenes/valdivia.jpg" class="card-img-top" alt="Foto de Valdivia">
                     <div class="card-body">
                         <h5 class="card-title">Valdivia</h5>
                         <p class="card-text">Conoce la gran historia de este lugar.</p>
-                        <a href="fotos.html" class="btn btn-primary">Ver más</a>
+                        <a href="paginas/fotos.html" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
             </div>
@@ -98,11 +117,11 @@
             <!-- Caja de destino 3 -->
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card">
-                    <img src="imagenes/villarica.jpg" class="card-img-top" alt="Destino 3">
+                    <img src="imagenes/villarica.jpg" class="card-img-top" alt="Foto de Villarica">
                     <div class="card-body">
                         <h5 class="card-title">Villarica</h5>
                         <p class="card-text">Disfruta la hermosa vista del volcan.</p>
-                        <a href="fotos.html" class="btn btn-primary">Ver más</a>
+                        <a href="paginas/fotos.html" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
             </div>
@@ -110,11 +129,11 @@
             <!-- Caja de destino 4 -->
             <div class="col-md-6 col-lg-3 mb-4">
                 <div class="card">
-                    <img src="imagenes/viña.jpg" class="card-img-top" alt="Destino 4">
+                    <img src="imagenes/viña.jpg" class="card-img-top" alt="Foto de Viña del mar">
                     <div class="card-body">
                         <h5 class="card-title">Viña del mar</h5>
                         <p class="card-text">Disfruta las hermosas playas.</p>
-                        <a href="fotos.html" class="btn btn-primary">Ver más</a>
+                        <a href="paginas/fotos.html" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
             </div>
@@ -129,11 +148,11 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-      <!-- Animación de cambio de color de fondo -->
-      <script>
+    <!-- Animación de cambio de color de fondo -->
+    <script>
         // verificacion de scroll
         window.addEventListener('scroll', function () {
-            if (window.scrollY > 25) { 
+            if (window.scrollY > 25) {
                 document.body.classList.add('scroll-background');
             } else {
                 document.body.classList.remove('scroll-background');

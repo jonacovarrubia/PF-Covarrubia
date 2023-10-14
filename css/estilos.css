@@ -1,35 +1,131 @@
 @charset "UTF-8";
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #ffffff;
-  /* Fondo blanco inicial */
-  transition: background-color 0.5s;
-  /* Transición de color de fondo durante 0.5 segundos */
+/* Variables */
+/* Estilos encabezado */
+/* line 7, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header .navbar {
+  background-color: #007bff;
 }
 
-/* Establece el color de fondo rojo al hacer scroll */
-body.scroll-background {
-  background-color: #ff0000;
+/* line 9, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header .navbar .navbar-brand {
+  color: white;
 }
 
-/* Header*/
-.navbar {
-  background-color: #3498db;
-  /* Color de fondo azul */
-}
-
-nav a {
-  color: #fff;
-  /* Letras blancas */
-}
-
-/* Cajas de destinos */
-.destino {
-  background-color: #fff;
-  /* Color de fondo del cuadro */
-  border: 1px solid #ddd;
-  /* Borde del cuadro */
+/* line 11, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header .navbar .navbar-brand:hover {
+  background-color: #fc0909;
   padding: 20px;
-  text-align: center;
+  border: 5px solid hwb(235 16% 0%);
+  margin: 10px;
+  transition: background-color 2s;
+}
+
+/* line 19, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header .navbar .navbar-toggler-icon {
+  color: white;
+}
+
+/* line 23, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header .navbar .nav-item .nav-link {
+  color: white;
+}
+
+/* line 25, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header .navbar .nav-item .nav-link:hover {
+  background-color: #db1f1f;
+  color: white;
+}
+
+/* Estilos cuadros de texto */
+/* line 35, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.custom-box {
+  background-color: #FF5733;
+  color: white;
+}
+
+/* line 40, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.custom-box-2 {
+  background-color: #3498db;
+  color: white;
+}
+
+/* line 45, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.custom-box-3 {
+  background-color: #FF5733;
+  color: white;
+}
+
+/* line 50, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+h1 {
+  transition: all 1s;
+}
+
+/* Transicion de h1 y cambio de color */
+/* line 56, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+h1:hover {
+  color: white;
+  font-size: 50px;
+  background-color: #fc0909;
+  padding: 20px;
+  border: solid 5px hwb(235 16% 0%);
   margin: 10px;
 }
+
+/*Cambio de color al hacer scroll */
+/* line 66, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.scroll-background {
+  background-color: red;
+  /* Color de fondo rojo */
+  transition: background-color 0.5s;
+  /*Transición suave */
+}
+
+/*Estilo para cuadro de texto de destinos.html */
+/* line 73, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.destino-description {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* line 81, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.destino-description p {
+  font-size: 20px;
+}
+
+/*Estilo para cuadro de texto de tours.html */
+/* line 87, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.tour-description {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* line 95, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.tour-description p {
+  font-size: 20px;
+}
+
+/* Estilo para las imágenes */
+/* line 101, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.gallery-img {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+/* Estilo para la animación de las imágenes al pasar el mouse */
+/* line 109, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+.gallery-img:hover {
+  transform: scale(1.1);
+  /* Cambia el tamaño de la imagen al pasar el mouse */
+}
+
+/*# sourceMappingURL=estilos.css.map */
