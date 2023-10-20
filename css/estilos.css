@@ -152,4 +152,24 @@ h1:hover {
   opacity: 1;
 }
 
+/* line 136, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+#Hero-Section {
+  margin-top: 0;
+  background-image: url("../imagenes/patagonia-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* line 143, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 147, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header {
+  padding: 0;
+  margin: 0;
+}
+
 /*# sourceMappingURL=estilos.css.map */
