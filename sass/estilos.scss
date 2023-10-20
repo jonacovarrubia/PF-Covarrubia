@@ -142,3 +142,19 @@ h1:hover {
 body {
   font-family: "Raleway", sans-serif;
 }
+
+
+.fondo-para-texto {
+  background-color: hwb(211 55% 0%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #333;
+  font-size: 1.2rem;
+  transition: background-color 0.3s; /* Agrega una transición suave al cambio de color*/
+
+  &:hover {
+    background-color: #0d75e5; /* Cambia el color de fondo en hover */
+    color: #fff; /* Cambia el color del texto en hover */
+  }
+}
