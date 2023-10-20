@@ -6,98 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="../imagenes/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../imagenes/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../imagenes/favicon/favicon-16x16.png">
+    <link rel="icon" type of="image/png" sizes="16x16" href="../imagenes/favicon/favicon-16x16.png">
     <link rel="manifest" href="../imagenes/favicon/site.webmanifest">
     <meta name="description" content="Los mejores destinos que visitar en Chile">
     <meta name="keywords" content="viajes, chile, destinos">
     <title>Chile Tours</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
-
-
-
-
+    <style>
+        /* Estilos para resaltar el formulario */
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="../index.html">Chile Tours</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="destinos.html">Destinos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="fotos.html">Fotos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tours.html">Tours</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Encabezado -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Chile Tours</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fotos.html">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tours.html">Tours</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- Encabezado -->
-        <header id="Hero-Section" class="text-light text-end py-5 mt-0">
-            <div class="container">
-                <div class="ms-auto col-12 col-md-7">
-                    <h1 class="display-1 fw-bold my-5">
-                        Chile Tours
-                    </h1>
-                </div>
-            </div>
-        </header>
-
-        <!-- Contenido principal de la página -->
-        <div class="container mt-4">
-            <h1 class="text-center">Tours</h1>
-
-            <!-- Mensaje para completar el formulario -->
-            <p class="text-center tour-description">¡Completa el siguiente formulario para tener la oportunidad de ganar
-                un tour gratis!</p>
-
-
-            <!-- Formulario de contacto  -->
-            <form>
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" required>
-                </div>
-                <div class="mb-3">
-                    <label for="correo" class="form-label">Correo Electrónico:</label>
-                    <input type="email" class="form-control" id="correo" name="correo" required>
-                </div>
-                <div class="mb-3">
-                    <label for="telefono" class="form-label">Teléfono:</label>
-                    <input type="tel" class="form-control" id="telefono" name="telefono" required>
-                </div>
-                <div class="mb-3">
-                    <label for="mensaje" class="form-label">Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
         </div>
+    </nav>
 
-        <!-- Pie de página -->
-        <footer class="bg-light text-center py-3">
-            Derechos de autor &copy; 2023 Chile Tours
-        </footer>
+    <header id="Hero-Section" class="text-light text-end py-5 mt-0">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7">
+                <h1 class="display-1 fw-bold my-5">
+                    Chile Tours
+                </h1>
+            </div>
+        </div>
+    </header>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Contenido principal de la página -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Parte izquierda con imagen y datos aleatorios de tour en Chile -->
+            <div class="col-md-6">
+                <img src="https://static.emol.cl/emol50/Fotos/2023/08/31/file_20230831172910.jpg" class="img-fluid">
+                <h2 class="my-3">Tour en Chile</h2>
+                <p>Descubre la belleza de Chile en nuestro emocionante tour. Visita lugares impresionantes y disfruta de la cultura local.</p>
+                <p><strong>Destinos destacados:</strong> Santiago, Valdivia, Viña del Mar, Villarrica</p>
+            </div>
+            <!-- Parte derecha con formulario -->
+            <div class="col-md-6">
+                <h1 class="text-center">Tours</h1>
+                <p class="text-center tour-description">¡Completa el siguiente formulario para tener la oportunidad de ganar un tour gratis!</p>
+                <!-- Formulario de contacto -->
+                <form class="form-container">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for "correo" class="form-label">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="correo" name="correo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono:</label>
+                        <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje:</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Participar por un tour gratis</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-light text-center py-3">
+        Derechos de autor &copy; 2023 Chile Tours
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
+
 </body>
 
 </html>

@@ -62,11 +62,7 @@ h1:hover {
   margin: 10px;
 }
 
-/*Cambio de color al hacer scroll */
-.scroll-background {
-  background-color: red; /* Color de fondo rojo */
-  transition: background-color 0.5s; /*Transición suave */
-}
+
 
 /*Estilo para cuadro de texto de destinos.html */ 
 
@@ -143,7 +139,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 .banner-background {
-  background-image: url('https://www.nomadasaurus.com/wp-content/uploads/2019/06/Easter-Island-Chile-Travel-Tips-1024x682.jpg');
+  background-image: url('../imagenes/paisajedibujo.jpg');
 
   background-size: cover;
   background-position: center;
