@@ -142,19 +142,62 @@ h1:hover {
 body {
   font-family: "Raleway", sans-serif;
 }
+.banner-background {
+  background-image: url('https://www.nomadasaurus.com/wp-content/uploads/2019/06/Easter-Island-Chile-Travel-Tips-1024x682.jpg');
 
-
-.fondo-para-texto {
-  background-color: hwb(211 55% 0%);
-  padding: 20px;
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  color: #333;
-  font-size: 1.2rem;
-  transition: background-color 0.3s; /* Agrega una transición suave al cambio de color*/
+  padding: 20px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
-  &:hover {
-    background-color: #0d75e5; /* Cambia el color de fondo en hover */
-    color: #fff; /* Cambia el color del texto en hover */
-  }
+.card.custom-box {
+  border: none;
+}
+
+.card.custom-box .card-title,
+.card.custom-box .card-text {
+  font-size: 24px;
+}
+
+.owl-carousel .item {
+  margin: 15px;
+  /* Increase the margin for spacing */
+}
+
+.owl-carousel .card {
+  border: none;
+  /* Remove the card border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Add a box shadow for a card-like effect */
+}
+
+.owl-carousel .card-img-top {
+  height: 200px;
+  /* Set a fixed height for the card images */
+  object-fit: cover;
+  /* Ensure the image covers the entire space */
+}
+
+.owl-carousel .card-body {
+  padding: 15px;
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+}
+
+.img-container {
+  width: 100%;
+  height: 250px;
+  /* Ajusta la altura que desees */
+  overflow: hidden;
 }
