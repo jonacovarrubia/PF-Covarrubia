@@ -2,66 +2,28 @@
 /* Variables */
 /* Estilos encabezado */
 /* line 7, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-header .navbar {
-  background-color: #007bff;
-}
-
-/* line 9, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-header .navbar .navbar-brand {
+header .navbar-toggler-icon {
   color: white;
 }
 
 /* line 11, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-header .navbar .navbar-brand:hover {
-  background-color: #fc0909;
-  padding: 20px;
-  border: 5px solid hwb(235 16% 0%);
-  margin: 10px;
-  transition: background-color 2s;
-}
-
-/* line 19, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-header .navbar .navbar-toggler-icon {
+header .nav-item .nav-link {
   color: white;
 }
 
-/* line 23, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-header .navbar .nav-item .nav-link {
+/* line 13, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+header .nav-item .nav-link:hover {
+  background-color: #a54040;
   color: white;
 }
 
-/* line 25, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-header .navbar .nav-item .nav-link:hover {
-  background-color: #db1f1f;
-  color: white;
-}
-
-/* Estilos cuadros de texto */
-/* line 35, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-.custom-box {
-  background-color: #FF5733;
-  color: white;
-}
-
-/* line 40, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-.custom-box-2 {
-  background-color: #3498db;
-  color: white;
-}
-
-/* line 45, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
-.custom-box-3 {
-  background-color: #FF5733;
-  color: white;
-}
-
-/* line 50, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 22, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 h1 {
   transition: all 1s;
 }
 
 /* Transicion de h1 y cambio de color */
-/* line 56, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 28, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 h1:hover {
   color: white;
   font-size: 50px;
@@ -72,7 +34,7 @@ h1:hover {
 }
 
 /*Estilo para cuadro de texto de destinos.html */
-/* line 69, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 41, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .destino-description {
   background-color: #007bff;
   color: #fff;
@@ -82,13 +44,13 @@ h1:hover {
   text-align: center;
 }
 
-/* line 77, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 49, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .destino-description p {
   font-size: 20px;
 }
 
 /*Estilo para cuadro de texto de tours.html */
-/* line 83, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 55, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .tour-description {
   background-color: #007bff;
   color: #fff;
@@ -98,13 +60,13 @@ h1:hover {
   text-align: center;
 }
 
-/* line 91, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 63, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .tour-description p {
   font-size: 20px;
 }
 
 /* Estilo para las imágenes */
-/* line 97, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 69, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .gallery-img {
   width: 100%;
   max-width: 400px;
@@ -113,14 +75,14 @@ h1:hover {
 }
 
 /* Estilo para la animación de las imágenes al pasar el mouse */
-/* line 105, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 77, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .gallery-img:hover {
   transform: scale(1.1);
   /* Cambia el tamaño de la imagen al pasar el mouse */
 }
 
 /* Estilos para  contacto */
-/* line 111, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 83, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .contact-info {
   text-align: center;
   opacity: 0;
@@ -131,19 +93,19 @@ h1:hover {
 }
 
 /* Estilo para el botón que mostrará la información */
-/* line 121, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 93, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .show-info-button {
   text-align: center;
   margin-top: 10px;
 }
 
 /* Estilo para el botón al hacer hover */
-/* line 127, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 99, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .show-info-button:hover + .contact-info {
   opacity: 1;
 }
 
-/* line 132, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 104, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 #Hero-Section {
   background-image: url("../imagenes/patagonia-1.jpg");
   background-repeat: no-repeat;
@@ -151,12 +113,12 @@ h1:hover {
   background-position: top center;
 }
 
-/* line 138, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 110, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 body {
   font-family: "Raleway", sans-serif;
 }
 
-/* line 141, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 113, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .banner-background {
   background-image: url("../imagenes/paisajedibujo.jpg");
   background-size: cover;
@@ -172,24 +134,24 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 157, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 129, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .card.custom-box {
   border: none;
 }
 
-/* line 161, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 133, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .card.custom-box .card-title,
 .card.custom-box .card-text {
   font-size: 24px;
 }
 
-/* line 166, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 138, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .owl-carousel .item {
   margin: 15px;
   /* Increase the margin for spacing */
 }
 
-/* line 171, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 143, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .owl-carousel .card {
   border: none;
   /* Remove the card border */
@@ -197,7 +159,7 @@ body {
   /* Add a box shadow for a card-like effect */
 }
 
-/* line 178, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 150, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .owl-carousel .card-img-top {
   height: 200px;
   /* Set a fixed height for the card images */
@@ -205,18 +167,18 @@ body {
   /* Ensure the image covers the entire space */
 }
 
-/* line 185, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 157, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .owl-carousel .card-body {
   padding: 15px;
 }
 
-/* line 189, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 161, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .gallery-img {
   width: 100%;
   display: block;
 }
 
-/* line 194, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
+/* line 166, ../../../Documents/PreEntrega3JonathanCovarrubia/sass/estilos.scss */
 .img-container {
   width: 100%;
   height: 250px;
